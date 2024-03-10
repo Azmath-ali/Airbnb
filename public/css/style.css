@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar ejs. */
+
+.navbar{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.navbar .form-control{
+    border-radius: 2vw;
+    padding: 0.5vw 1vw;
+}
+
+.navbar .btn{
+    border-radius:50% !important ;
+    background-color: red;
+    border: none;
+}
+
+.navbar .btn i{
+    color: white !important;
+
+}
+
+.container-fluid{
+
+    padding: .5vw 4vw !important;
+    background-color: rgba(255, 255, 255, 0.985) !important;
+}
+.container-fluid a{
+    display: flex ;
+    align-items: center;
+    gap: .7vw;
+}
+
+
+
+.navbar-brand span{
+    color: red ;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.navbar-brand i{
+    font-size: 2vw;
+}
+
+.nav-link{
+    color: black !important;
+    font-weight:bold ;
+    
+}
+
+
+
+
+/* Footer ejs. */
+
+
+.terms-condition{
+    width: 100%;
+    height: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.condition{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+.condition a h3{
+    font-size: 1.2vw;
+}
+
+
+.currency{
+
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+
+.currency h3 i{
+    font-size: 1vw;
+}
+.currency h3 {
+    font-size: 1vw;
+}
+
+.currency h3 span{
+    font-size: 1vw;
+}
+.social{
+    margin-top: -.6vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.social a{
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* Index ejs. */
+
+#side{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
+#side a{
+    text-decoration: none;
+}
+
+.card{
+    width: 20vw;
+    height: 23vw !important;
+    position: relative;
+    background-color: red;
+}
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#row{
+    margin-top: 2vw;
+
+}
+
+#row p{
+    color: black;
+}
+
+#color{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+}
+
+#color:hover{
+    background-color: rgba(255, 255, 255, 0.13);
+    border: 1px solid red;
+    opacity: 1;
+}
+
+
+
+
+/* Index.ejs */
+
+.icons{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    gap: 3vw ;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vw;
+    opacity: .6;
+}
+
+.icon h5{
+    font-size: .8vw;
+}
+
+.icon:hover{
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.form-check-reverse {
+    width: 15vw !important;
+    margin-left: 2vw;
+    border: 1px solid black;
+    height: 4rem;
+    padding: 1.2rem;
+    border-radius: 1rem;
+
+}
+
+
+.index{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MAP */
+#map{
+    width: 50vw;
+    height: 30vw;
+    border-radius: 2vw;
+}

@@ -1,0 +1,65 @@
+<% layout("/layout/boilerplate") %> 
+
+<body>
+
+    <h3>Create New Listing...</h3>
+    
+    <form action="/listing" method="post" enctype="multipart/form-data" class="rows  cols g-2 needs-validation" novalidate>
+
+
+
+        <h5>Title:</h5>
+        <input type="text" name="listing[title]"  class="form-control" placeholder="enter the title" required>
+
+        <div class="invalid-feedback">
+        
+            Please choose a username.
+          </div>
+        <br> <br>
+
+        <h5>Description:</h5>
+        <textarea name="listing[description]" class="form-control" cols="30" rows="10" placeholder="enter the description" required></textarea>
+
+            <br>
+
+        <h5>Image:</h5>    
+        <input type="file" name="listing[image]" class="form-control" placeholder="enter the image url/link" required > 
+
+        <br> <br>
+
+
+        <h5>Price:</h5>
+        <input type="text" name="listing[price]" class="form-control" placeholder="enter the price" required>
+        <div class="invalid-feedback">
+            Please provide a valid Price
+        </div>
+        
+        
+        <br> <br>
+
+
+        <h5>Location:</h5>
+        <input type="text" name="listing[location]" class="form-control" placeholder="enter the location" required> 
+        <div class="invalid-feedback">
+            Please provide a valid Location
+        </div>
+
+        <br> <br>
+
+
+
+        <h5>Country:</h5>
+        <input type="text" name="listing[country]" class="form-control" placeholder="enter the country" required>
+        <div class="invalid-feedback">
+            Please provide a valid Country
+        </div>
+
+        <br> <br>
+
+
+        <button>Add</button>
+    </form>
+
+</body>
+
+<script src="/js/script.js"></script>
